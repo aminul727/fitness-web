@@ -60,6 +60,39 @@ header{
     width: 349px;
     height: 550px;
     margin-left: 220px;
+    position: relative;
+}
+.tooltip{
+    background: #E6533C;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 140px;
+    height: 73px;
+    padding-top: 10px;
+    padding-left: 10px;
+    top: 20%;
+    border-radius: 20px;
+}
+.tooltip-2{
+    position: absolute;
+    width: 150px;
+    height: 73px;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    gap: 5px;
+    color: #FFFFFF;
+    bottom: 1%;
+    left: -40%;
+}
+.ball{
+    width: 60px;
+    height: 40px;
+    border-radius: 60px;
+    background: #E6533C;
 }
 .get{
     max-width: 599px;
